@@ -1,0 +1,17 @@
+YearOfGrowth,Date,GrowingSeasonMeasurement,Notes
+0,9/30/1980,,Installation of  28 study plots; each had a 30 meters by 50 meters treatment area and an interior 20 meters by 40 meters measurement plot.
+0,10/31/1980,,Precommercial thinning of plots.  Spacing of approximately 3.5 meters by 3.5 meters (807 trees per hectare)
+0,2/27/1981,1980,All trees greater than 1.3 meter tagged and measured for Height and Diameter at Breast Height (DBH)
+0,4/3/1981,,Fertilization treatments applied. See Codes_Treatment.csv for details.
+1,11/30/1981,1981,20 tallest trees for Height and DBH
+2,11/30/1982,1982,All trees for Height and DBH. Ingrowth tagged and measured if dbh >= 4 cm
+3,12/31/1983,1983,20 tallest trees for Height and DBH
+5,11/30/1985,1985,All trees for Height and DBH. Ingrowth tagged and measured if  dbh >= 4 cm
+10,4/27/1991,1990,"All trees for DBH, subsample for Heights. Ingrowth tagged and measured if  dbh >= 4 cm plus untagged ingrowth from plots 6,8,9,10,and 11 measured."
+12,9/18/1992,1992,20 tallest trees for Diameter only (no Heights)  Ingrowth tagged and measured if  dbh >= 4 cm
+13,6/29/1993,,2nd fertilization treatments applied.  Four of the plots in one block did not receive any 2nd fertilization treatments.
+13,7/13/1993,1993,20 tallest trees for Height and DBH
+16,3/31/1997,1996,"All trees for DBH, subsample for Heights, HeightToLiveCrown base. Ingrowth tagged and measured if dbh >= 4 cm"
+17,10/30/1997,1997,Stem Taper measured on subsampled trees
+20,4/19/2001,2000,"All trees for DBH, subsample for Heights, HeightToLiveCrown base. Ingrowth tagged and measured if dbh >= 4 cm"
+25,4/26/2006,2005,"All trees for DBH, subsample for Heights, HeightToLiveCrown base, CrownRadius, Stem Taper.   Ingrowth tagged and measured if dbh >= 4 cm"

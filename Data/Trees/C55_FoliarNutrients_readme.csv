@@ -1,0 +1,10 @@
+Column Name,Description,Unit of Measure,Codes
+PLOT,"Installation divided into 28 plots, each with a 30- by 50-meter treatment area and a 20- by 40-meter interior measurement plot.",,
+REPLICATE,Plots were blocked based on drainage (4 plots per treatment),,
+YEAR,Growing season of foliage collection and nutrient concentration analysis,,
+TOTN,Concentration of nitrogen,percent,
+TOTP,Concentration of phosphorus ,percent,
+TOTK,Concentration of potassium,percent,
+TOTS,Concentration of sulfur,percent,
+TOTCa,Concentration of calcium,percent,
+TOTMg,Concentration of magnesium,percent,

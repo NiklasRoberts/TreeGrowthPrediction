@@ -1,0 +1,23 @@
+Column Name,Description,Unit of Measure,Codes
+PLOT,"Installation divided into 28 plots, each with a 30- by 50-meter treatment area and a 20- by 40-meter interior measurement plot.",,
+TREE,Represents the tagnum which has been nailed or stapled to this particular tree on the plot.,,
+RECRUIT,"Indicates whether or not this tree was orginally planted or if it has grown in since time of planting. If a new tree is found, it is given the tree number of the closest original tree number and the next available recruitment number.",,"0=tree was present and measured at time of study establishment; 1, 2, and so on indicate trees added to file over time primarily due to ingrowth of natural regeneration."
+STEM,Presence of two or more stems on same tree. A = largest stem on tree.  B and on = additional stems and serve to keep track of individual stems.,,
+SPECIES,Indicates the tree species for that particular tagnum.,,See Code_Species.csv
+DXX,Diameter at breast height of tree at end of the XX growing season (XX=year),centimeters,
+HXX,Height of tree at end of the XX growing season (XX=year),meters,
+CXX,Condition or status of tree at end of the XX growing season  (XX=year up to 1996).,,See C55_Codes_Damage-1980-1996.pdf
+HLCXX,Height to the live crown from the ground at end of the XX growing season (XX=year),meters,
+TCXX,Tree class at end of the XX growing season (XX=year),,See Codes_TreeClass.csv
+CCXX,Crown class  at end of the XX growing season (XX=year),,See Codes_CrownClass.csv
+DCXX,Dead or decay class  at end of the XX growing season (XX=year),,See Codes_DeadClass.csv
+DAMAXX,Type of tree damage at end of the XX growing season (XX=year 2000 and 2005 only),,See C55_Codes_Damage-2000-2005.pdf
+DAMBXX,"Additional type of tree damage at end of the XX growing season, if applicable (XX=year 2000 and 2005 only)",,See C55_Codes_Damage-2000-2005.pdf
+DAMCXX,"Additional type of tree damage at end of the XX growing season, if applicable (XX=year 2000 and 2005 only)",,See C55_Codes_Damage-2000-2005.pdf
+SVAXX,Severity of tree damage at end of the XX growing season (XX=year 2000 and 2005 only),,See C55_Codes_Damage-2000-2005.pdf
+SVBXX,"Additional severity of tree damage at end of the XX growing season, if applicable (XX=year 2000 and 2005 only)",,See C55_Codes_Damage-2000-2005.pdf
+SVCXX,"Additional severity of tree damage at end of the XX growing season, if applicable (XX=year 2000 and 2005 only)",,See C55_Codes_Damage-2000-2005.pdf
+RECNTAXX ,Recency of damage at end of the XX growing season (XX=year 2000 and 2005 only),,See C55_Codes_Damage-2000-2005.pdf
+RECNTBXX ,"Additional recency of damage at end of the XX growing season, if applicable (XX=year 2000 and 2005 only)",,See C55_Codes_Damage-2000-2005.pdf
+RECNTCXX ,"Additional recency of damage at end of the XX growing season, if applicable (XX=year 2000 and 2005 only)",,See C55_Codes_Damage-2000-2005.pdf
+COMMENTSXX,"Any additional comments, plus may be coded as noted in Codes_Comments.csv  (XX=year)",,See Codes_Comments.csv

@@ -1,0 +1,11 @@
+Column Name,Description,Unit of Measure,Codes
+TreatmentCode81,Represents combinations of precommercial thinning and fertilization regimes performed during 1980-81,,see Codes_Treatment.csv
+TreatmentCode93,Represents combinations of fertilization regimes performed during 1993,,see Codes_Treatment.csv
+Plot,"Installation divided into 28 plots, each with a 30- by 50-meter treatment area and a 20- by 40-meter interior measurement plot. In 1993, 4 more plots were added (C55A), each with a 25- by25-meter treatment area and a 15- by15-meter measurement plot.",,
+TreatmentPlotSize,Treatment plot sizes are either 0.15 hectare rectangle or 0.0625 hectare square sections,hectare,
+MeasurementPlotSize,Measurement plot sizes are either 0.08 hectare rectangle or 0.0225 hectare square sections,hectare,
+PlotShape,Shape of measurement plots,,
+Minimum_DBH,Minimum diameter at breast height for a tree to be measured/tallied,centimeters,
+No_of_StemsPerAcre_PreThin,Numper of stems (all species) per acre tallied before thinning,,
+No_of_StemsPerAcre_PostThin,Number of stems (all species) per acre tagged after thinning,,
+Elevation,Approximate elevation of the plot,meter,

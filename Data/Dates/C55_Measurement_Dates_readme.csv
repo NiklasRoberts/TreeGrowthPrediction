@@ -1,0 +1,5 @@
+Column Name,Description,Unit of Measure,Codes
+YearOfGrowth,Years since study installation (year 0 = fall 1980/winter 1981),,
+Date,The date of the measurement (NOTE: if the day are not known it is listed as 31),,
+GrowingSeasonMeasurement,The growing season immediately preceding the measurement (for example: measured 12/15/2007 = growing season 2007 and measured 2/15/2008 is still = growing season 2007),,
+Notes,Details of the types of measurements or event performed,,see Codes_Treatment.csv

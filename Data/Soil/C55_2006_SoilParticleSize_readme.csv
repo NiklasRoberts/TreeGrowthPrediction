@@ -1,0 +1,7 @@
+Column Name,Description,Unit of Measure,Codes
+PLOT,"Installation divided into 28 plots, each with a 30- by 50-meter treatment area and a 20- by 40-meter interior measurement plot.",,
+LAB_ID,Arbitrary number given to soil sample.,,
+SAND,Amount of sand particles found in soil sample.  Analyzed by Oregon State University (OSU),percent,
+SILT,Amount of silt particles found in soil sample.  Analyzed by Oregon State University (OSU),percent,
+CLAY,Amount of clay particles found in soil sample.  Analyzed by Oregon State University (OSU),percent,
+TEXTURE_CLASS,"Texture names given to soils based upon the relative proportion of each of the three soil separates (sand, silt and clay)",,

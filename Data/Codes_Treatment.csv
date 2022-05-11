@@ -1,0 +1,12 @@
+TreatmentCode81,TreatmentCode93,ThinningStatus81,FertilizerStatus81,Nitrogen81 (kg/ha),Phosphorus81 (kg/ha),Calcium81 (kg/ha),Potassium81 (kg/ha),Sulfur81 (kg/ha),FertilizerStatus93,Nitrogen93 (kg/ha),Phosphorus93 (kg/ha)
+1,1,Unthinned,Unfertilized,,,,,,Unfertilized,,
+2,8,Unthinned,Fertilized,300 ammonium nitrate,100 monodicalcium phosphate,129 monodicalcium phosphate,100 potassium sulfate,41 potassium sulfate,Fertilized,300 ammonium nitrate,100 triple superphosphate
+3,3,Thinned,Unfertilized,,,,,,Unfertilized,,
+4,4,Thinned,Fertilized,300 urea,,,,,Unfertilized,,
+4,9,Thinned,Fertilized,300 urea,,,,,Fertilized,300 ammonium nitrate,
+5,5,Thinned,Fertilized,300 ammonium nitrate,,,,,Unfertilized,,
+5,9,Thinned,Fertilized,300 ammonium nitrate,,,,,Fertilized,300 ammonium nitrate,
+6,6,Thinned,Fertilized,300 ammonium nitrate,100 monodicalcium phosphate,129 monodicalcium phosphate,,,Unfertilized,,
+6,10,Thinned,Fertilized,300 ammonium nitrate,100 monodicalcium phosphate,129 monodicalcium phosphate,,,Fertilized,300 ammonium nitrate,100 triple superphosphate
+7,7,Thinned,Fertilized,300 ammonium nitrate,100 monodicalcium phosphate,129 monodicalcium phosphate,100 potassium sulfate,41 potassium sulfate,Unfertilized,,
+7,10,Thinned,Fertilized,300 ammonium nitrate,100 monodicalcium phosphate,129 monodicalcium phosphate,100 potassium sulfate,41 potassium sulfate,Fertilized,300 ammonium nitrate,100 triple superphosphate

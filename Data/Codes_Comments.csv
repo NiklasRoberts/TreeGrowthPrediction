@@ -1,0 +1,31 @@
+Code,Description
+01,See field sheets
+02,No tag
+03,Tag hung on branch or tag moved to another stem
+04,Tag on barlock circling stem
+05,Tag high
+06,Tag low
+07,Height measurement verified
+08,Diameter measurement verified
+09,Previous height changed
+10,Previous Dbh changed
+11,Change in terminal
+12,Replacement tree
+13,Cut tree
+14,On skid road/landing
+15,Ht. not measured
+16,Verified cut
+17,Cut tree not cut
+18,HLC measurement verified
+19,Uneven crown - Avg. HLC
+20,< 15 centimeters (cm) recent colluvium
+21,15-50 cm recent colluvium
+22,50-100 cm recent colluvium
+23,> 100 cm recent colluvium
+24,High diameter at breast height (Dbh)
+25,Low Dbh
+26,Broken below BH (breast height)
+27,Origin from rooted branch
+28,Moved Dbh location
+29,Pruned
+30,Stump sprout removed

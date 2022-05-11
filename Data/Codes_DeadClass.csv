@@ -1,0 +1,12 @@
+Code,Type,Description
+0,,Not measured
+1,Snag,"Bark present; limbs and branches present; top usually pointed; sapwood intact, sound, incipient decay, hard, original color; heartwood sound, hard, original color"
+2,Snag,"Bark beginning to slough; few limbs and no fine branches remaining; top may be out; sapwood sloughing, advanced decay, fibrous, firm to soft; heartwood sound at base, incipient decay in outer edge of upper bole, hard"
+3,Snag,"Bark sloughing; limb stubs only; top broken; sapwood sloughing, fibrous, soft; heartwood incipient decay at base, advanced decay throughout upper bole, fibrous, hard to firm"
+4,Snag,"Bark sloughing; few to no branch stubs; top broken; sapwood sloughing, cubical, soft; heartwood advanced decay at base, sloughing from upper bole, fibrous to cubical, soft"
+5,Snag,"Bark mostly gone; no branches or stubs; top broken; sapwood gone; heartwood sloughing, cubical, soft, or fibrous, very soft, conifers frequently encased in hardened shell"
+1,Downed Dead,"Bark intact and tight; branches, twigs, and fines present; shape round; wood hard; log elevated above ground on support points"
+2,Downed Dead,"Bark mostly present, but may be loose; branches present, but twigs and fines generally absent; shape round; wood hard to partly soft; log elevated above ground but slightly sagging"
+3,Downed Dead,"Bark loose and missing in places; twigs, and fines absent; wood hard and in large pieces, with some decay; shape round to oval; all of log on ground"
+4,Downed Dead,"Bark generally absent; small branches, twigs, and fines absent; wood soft and in blocky pieces; shape round to oval; all of log on ground"
+5,Downed Dead,"Bark entirely absent; branches, twigs, and fines absent; wood soft and powdery; shape oval; all of log always on ground"

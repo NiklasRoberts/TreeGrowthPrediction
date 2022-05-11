@@ -1,0 +1,520 @@
+<?xml-stylesheet href='NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Harrington, Constance A.</origin>
+        <pubdate>2021</pubdate>
+        <title>C-55 Thinning and fertilization in western redcedar (C55 WRC TF)</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2021-0080</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>C55 is a study of thinning and fertilization implemented in a naturally regenerated, high density stand of primarily western redcedar on a low-site quality area on the Olympic Peninsula in western Washington. The fertilization treatments compared effectiveness of urea and ammonium nitrate (2 nitrogen fertilizers) as well as fertilization treatments which included phosphorus, calcium, potassium and sulfur. This data publication contains the response variables, measured between 1980 and 2005, such as tree height and diameter growth, basal area, regeneration, foliar nutrients, stem taper, crown width, branch diameter and regeneration.</abstract>
+      <purpose>Western redcedar is an ecologically important and commercially valuable species but relatively little information has been available on its growth rates in young stands or responses to management.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>198004</begdate>
+          <enddate>200511</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.63</westbc>
+        <eastbc>-124.63</eastbc>
+        <northbc>48.13</northbc>
+        <southbc>48.13</southbc>
+        <boundalt>
+          <altmin>100</altmin>
+          <altmax>100</altmax>
+          <altunits>meters</altunits>
+        </boundalt>
+      </bounding>
+      <descgeog>This study was conducted in Gifford Pinchot National Forest in Washington, United States.</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>farming</themekey>
+      </theme>
+      <theme>
+        <themekt>National Research &amp; Development Taxonomy</themekt>
+        <themekey>Natural Resource Management &amp; Use</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>branch diameter</themekey>
+        <themekey>calcium</themekey>
+        <themekey>crown width</themekey>
+        <themekey>fertilization</themekey>
+        <themekey>foliar nutrients</themekey>
+        <themekey>height to live crown</themekey>
+        <themekey>ingrowth</themekey>
+        <themekey>nitrogen</themekey>
+        <themekey>phosphorus</themekey>
+        <themekey>potassium</themekey>
+        <themekey>regeneration</themekey>
+        <themekey>stand growth</themekey>
+        <themekey>stem taper</themekey>
+        <themekey>sulfur</themekey>
+        <themekey>thinning</themekey>
+        <themekey>Thuja plicata</themekey>
+        <themekey>tree diameter</themekey>
+        <themekey>tree growth</themekey>
+        <themekey>tree height</themekey>
+        <themekey>Tsuga heterophylla</themekey>
+        <themekey>western hemlock</themekey>
+        <themekey>western redcedar </themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Washington</placekey>
+        <placekey>Gifford Pinchot National Forest</placekey>
+        <placekey>Picea sitchensis zone</placekey>
+        <placekey>Clallam County</placekey>
+        <placekey>Olympic Peninsula</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation: 
+
+Harrington, Constance A. 2020. C-55 Thinning and fertilization in western redcedar (C55 WRC TF). Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2021-0080</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>David Thornton</cntper>
+          <cntorg>Pacific Northwest Research Station</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3625 93rd Ave SW</address>
+          <city>Olympia</city>
+          <state>WA</state>
+          <postal>98512</postal>
+        </cntaddr>
+        <cntvoice>360-754-5372 (prefers email)</cntvoice>
+        <cntpos>IT Specialist</cntpos>
+        <cntemail>dave.thornton@usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This project was funded by the USDA Forest Service, Pacific Northwest Research Station.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Harrington, Constance A.</origin>
+        <origin>Wierman, Charles A.</origin>
+        <pubdate>1985</pubdate>
+        <title>Response of a poor-site western redcedar stand to precommercial thinning and fertilization</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>Research Paper</sername>
+          <issue>PNW-RP-339</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Portland, OR</pubplace>
+          <publish>U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station</publish>
+        </pubinfo>
+        <othercit>18 p.</othercit>
+        <onlink>https://doi.org/10.2737/PNW-RP-339</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Harrington, Constance A.</origin>
+        <origin>Wierman, Charles A.</origin>
+        <pubdate>1990</pubdate>
+        <title>Growth and foliar nutrient response to fertilization and precommercial thinning in coastal western red cedar stand</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Canadian Journal of Forest Research</sername>
+          <issue>20(6): 764-773</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1139/x90-101</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Devine, Warren D.</origin>
+        <origin>Harrington, Constance A.</origin>
+        <pubdate>2009</pubdate>
+        <title>Western redcedar response to precommercial thinning and fertilization through 25 years posttreatment</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Canadian Journal of Forest Research</sername>
+          <issue>39(3): 619-628</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1139/X08-199</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Harrington, Constance A.</origin>
+        <origin>Gould, Peter J.</origin>
+        <pubdate>2010</pubdate>
+        <title>Growth of western redcedar and yellow-cedar</title>
+        <geoform>document</geoform>
+        <othercit>pp 97-102</othercit>
+        <lworkcit>
+          <citeinfo>
+            <origin>Harrington, Constance A. (technical coordinator)</origin>
+            <pubdate>2010</pubdate>
+            <title>A tale of two cedars: International symposium on western redcedar and yellow-cedar</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>General Technical Report</sername>
+              <issue>PNW-GTR-828</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Portland, OR</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station</publish>
+            </pubinfo>
+            <othercit>177 p.</othercit>
+            <onlink>https://doi.org/10.2737/PNW-GTR-828</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Harrington, Constance A.</origin>
+        <origin>Devine, Warren D.</origin>
+        <pubdate>2011</pubdate>
+        <title>Stand development following precommercial thinning and fertilization treatments in a western redcedar (Thuja plicata) dominated forest</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Canadian Journal of Forest Research</sername>
+          <issue>41(1): 151-164</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1139/X10-193</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Brodie, Leslie</origin>
+        <origin>Harrington, Constance A.</origin>
+        <origin>Gould, Peter J.</origin>
+        <origin>Devine, Warren D.</origin>
+        <pubdate>2012</pubdate>
+        <title>Remember redcedar! An overlooked species reveals its potential. Science Findings.</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>Science Findings</sername>
+          <issue>147</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Portland, OR</pubplace>
+          <publish>U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station</publish>
+        </pubinfo>
+        <othercit>prepared by Joan O’Callaghan, Science Writer; 6 p.</othercit>
+        <onlink>https://www.fs.usda.gov/treesearch/pubs/42151</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Measurements were taken by trained, experienced field crews; however, field measurements were not verified unless triggered by data editing programs.</attraccr>
+    </attracc>
+    <logic>Data were edited for inconsistencies via specialized data summary programs and plotting repeat or related measurements (such as height at time A versus height at time B or tree diameter versus tree height) and field checked if appropriate (e.g., tree height appeared to have shrunk from the previous measurement and a condition code such as dead top was not recorded). Foliar nutrient values included blind duplicates when sending samples for analysis.</logic>
+    <complete>Missing data are denoted by blank cells. Also, typically a '0' was also used to denote a missing measurement. Actual missing data were the result of either a tree being missing or human error of omitting the measurement. Some measurements such as heights and height to live crowns were subsampled.</complete>
+    <lineage>
+      <method>
+        <methdesc>STUDY DESIGN
+		
+A thinning and fertilization trial was established in a young stand of primarily western redcedar on the Olympic Peninsula in western Washington in 1980. The trial consisted of 4 blocks of 7 treatments for a total of 28 plots. Treatment plots were 30 meters (m) x 50 m with interior measurement plots of 20 m by 40 m. Prior to study establishment, stand density was 5900 trees/hectare (ha), predominately 15-20 years old with the largest 250 trees/ha averaging 5.4 m in height. Five treatments reduced stand density to approximately 3 m x 3 m or 1100 trees/ha. Slash from the thinning was left on site. The initial fertilization treatments took place prior to the first growing season of the study (i.e., year 0); a second fertilizer application occurred in year 13. The fertilization treatments in year 0 in thinned stands were two forms of nitrogen (N) (urea or ammonium nitrate), N+P/CA, and N+P/CA+K/S (Table 1 in Harrington and Devine 2011). The N+P/Ca+K/S fertilizer formulation was also applied in the unthinned, fertilized treatment. For the second fertilization application, it was decided to combine some of the treatments to allow for a possible future separation of plots that would compare three fertilizations versus two (the third fertilization has not been done). Thus, at year 13, three plots each from treatments 2 and 3 (thinned plots previously treated with urea or ammonium nitrate) were retreated with ammonium nitrate, and three plots each from treatments 4 and 5 (thinned and previously fertilized with ammonium nitrate and monodicalcium phosphate or ammonium nitrate, monodicalcium phosphate, and potassium sulfate) were fertilized with ammonium nitrate and triple superphosophate. Because four of the plots in one block did not receive the year-13 fertilization, these plots were dropped from statistical analysis, although mean values for these four plots are included in the results as treatment T1N. Fertilizers were applied by hand to treatment plots, using two perpendicular passes, from 26 March through 3 April 1981 (year 0) and from 21 through 29 June 1993 (year 13). Monodicalcium phosphate was selected in year 0 as the P source so that soils would not be acidified by the P fertilization. This formulation was not available for the 1993 fertilization, so triple superphosphate was applied instead.  
+            
+DATA COLLECTION - TREES
+			
+After the precommercial thinning treatment, but prior to the year 1 (1981) growing season, all trees on each measurement plot greater than 1.3 m in height were tagged with unique numbers and measured for diameter breast height (dbh) (measured at a height of 1.3 m) and total height. Diameter at breast height of all trees was remeasured after the growing season in years 2, 5, 10, 16, 20, and 25. At each remeasurement, untagged trees (i.e., ingrowth) that were 4.0 cm dbh or greater were tagged, measured, and remeasured in subsequent years. In 1980, 5350 trees were measured, and by study year 25, the total had increased to 8365. There were 24 veglings (trees of vegetative origin, in this case arising from a branch) in the study. Their growth rates were similar to those of trees of seed origin and so they were combined with the trees of seed origin for all analyses.
+            
+Total height of all initial trees was remeasured in years 2 and 5. In years 10, 16, 20, and 25, height was measured on a subset of trees (approximately 12%) from the full range of diameters present. This subset of trees was composed of the two most prevalent tree species, western redcedar and western hemlock, which together comprised over 97% of trees in the study. Other species were typically in subcanopy crown positions. At the last three measurements, height to live crown (HLC) was also measured on all trees selected for height measurements. In year 25 crown radius was measured in two directions, 180° apart, at the widest point of the crown. 
+            
+
+DATA COLLECTION - STEM ASSESSMENT
+			
+Following the year-17 and year-25 growing seasons, stem taper was assessed by measuring stem diameter of randomly selected trees at heights of 0.3, 1.3, 2.3, and 3.3 m using a ladder.  
+            
+At the time of the year-25 taper measurements, diameters of two branches per tree were measured, at the proximal end, on the same trees measured for taper. These branches were selected by first determining the azimuth of greatest crown diameter and then bisecting the stem vertically using an azimuth offset 90° from that of greatest crown diameter. On each of the bisected halves, the largest-diameter branch was selected within 2.3 m of stem base. Branch status (living or dead) was recorded.
+
+Samples of year-10 (i.e., 1990) foliar growth were collected 3-4 April 1991 from 10 dominant or codominant trees per plot. These samples were collected from the upper portion of the crown that was exposed to sunlight. Samples were composited by plot and analyzed for total N, P, K, S, Ca, and Mg. Nitrogen analysis followed the Kjeldahl method.
+            
+
+DATA COLLECTION - SOIL
+			
+Following year 25 (May 2006), mineral soil in the 0 to 20 centimeter (cm) depth interval was sampled using a steel soil probe at eight systematical1y arranged locations per plot. At each location, five subsamples were col1ected, and then al1 samples were composited by plot. Samples were analyzed for pH (1: 1 soil:water, v/v), total C and N (Fisons NA 1500 Elemental Analyzer, Fisons Instruments, Manchester, UK), inorganic N (NIL. and N03; Sims et al. 1995), P (Bray-1 extraction), S04-S (CaP04 extraction), K, and Ca (both via inductively coupled plasma). 
+</methdesc>
+        <methtype>Field</methtype>
+        <methcite>
+          <citeinfo>
+            <origin>Harrington, Constance A.</origin>
+            <origin>Devine, Warren D.</origin>
+            <pubdate>2011</pubdate>
+            <title>Stand development following precommercial thinning and fertilization treatments in a western redcedar (Thuja plicata) dominated forest</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Canadian Journal of Forest Research</sername>
+              <issue>41(1): 151-164</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1139/X10-193</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+      <procstep>
+        <procdesc>See methods section and methodology citations for details.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>CODE DESCRIPTION FILES (\Data)
+Below you will find a list and description of the files available within the \Data folder, which contains information regarding the codes used throughout the data files included in this data publication.
+
+C55_Codes_Damage-1980-1996.pdf: Portable Document Format file containing descriptions of damage codes (alpha codes) describing comment details, tree or tag position, stem parts as broken or dead, damage and disease, and stem formation used from 1980-1996. 
+          
+C55_Codes_Damage-2000-2005.pdf: Portable Document Format file containing descriptions of damage and severity codes (alpha-numeric codes) used to create an eight digit code specifically describing character damage type, character damage code, character (or digit) severity code and character recency code used from 2000-2005.
+         
+Codes_Comments.csv: Comma-delimited ASCII text file containing codes which correspond to different comments used in the data.
+Variables include:
+Code = numbers 1-30 corresponding to different comments made in data
+Description = various comments which correspond to codes 1-30 which are used to describe the data
+          
+Codes_CrownClass.csv: Comma-delimited ASCII text file containing codes which correspond to different descriptions of tree crowns found in the data.
+Variables include:
+Crown_Class_Code = numbers 0-9 corresponding to different descriptions of tree crowns
+Description = descriptive comments of different tree crown types
+		  
+Codes_DeadClass.csv: Comma-delimited ASCII text file containing codes describing different types of classes of dead trees found in the data.
+Variables include:
+Code = numbers 0-5 corresponding to listed descriptions
+Type = type of dead tree (snag or downed dead)
+Description = describes type of snag or downed dead
+
+Codes_Species.csv: Comma-delimited ASCII text file containing codes which identify specific species identified in the data.
+Variables include:
+Species = 4-5 digit codes corresponding to specific species
+Scientific Name = scientific name of each species identified in the data
+Species Name = common name of each species identified in the data
+          
+Codes_Treatment.csv: Comma-delimited ASCII text file containing codes and information describing treatments over the years.
+Variables include:
+TreatmentCode81 = represents combinations of precommercial thinning and fertilization regimes performed during 1980-1981
+TreatmentCode93 = represents combinations of fertilization regimes performed during 1993
+ThinningStatus81 = thinning treatment performed during 1981 (Unthinned or thinned)
+FertilizerStatus81 = fertilized treatment performed during 1981 (Unfertilized or fertilized)
+Nitrogen81 (kg/ha) = if fertilized, nitrogen amount (kilograms per hectare [kg/ha]) and type applied in 1981
+Phosphorus81 (kg/ha) = if fertilized, phosphorus amount (kg/ha) and type applied in 1981
+Calcium81 (kg/ha) = if fertilized, calcium amount (kg/ha) and type applied in 1981
+Potassium81 (kg/ha) = if fertilized, calcium amount (kg/ha) and type applied in 1981
+Sulfur81 (kg/ha) = if fertilized, sulfur amount (kg/ha) and type applied in 1981
+FertilizerStatus93 = Fertilized treatment performed during 1993 (Unfertilized or fertilized)
+Nitrogen93 (kg/ha) = if fertilized, nitrogen amount (kg/ha) and type applied in 1993
+Phosphorus93 (kg/ha) = if fertilized, phosphorus amount (kg/ha) and type applied in 1993
+          
+Codes_TreeClass.csv: Comma-delimited ASCII text file containing nonsequential two-digit numerical codes and their corresponding descriptions of various tree classes.
+Variables include:
+Tree_Class_Code = nonsequential two-digit numerical codes corresponding to various tree classes
+Description = description of tree class corresponding to specific nonsequential two-digit numerical codes 
+</eaover>
+      <eadetcit>Harrington, Constance A.; Wierman, Charles A. 1985. Response of a poor-site western redcedar stand to precommercial thinning and fertilization. Res. Pap. PNW-RP-339. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 24 p. https://doi.org/10.2737/PNW-RP-339
+	  
+Harrington, Constance A.; Wierman, Charles A. 1990. Growth and foliar nutrient response to fertilization and precommercial thinning in coastal western red cedar stand. Canadian Journal of Forest Research 20(6): 764-773. https://doi.org/10.1139/x90-101
+
+Devine, Warren D.; Harrington, Constance A. 2009. Western redcedar response to precommercial thinning and fertilization through 25 years posttreatment. Canadian Journal of Forest Research 39(3): 619-628. https://doi.org/10.1139/X08-199
+
+Harrington, Constance A.; Devine, Warren D. 2011. Stand development following precommercial thinning and fertilization treatments in a western redcedar (Thuja plicata) dominated forest. Canadian Journal of Forest Research 41(1): 151-164. https://doi.org/10.1139/X10-193</eadetcit>
+    </overview>
+    <overview>
+      <eaover>DATE FILES (\Data\Dates)
+Below you will find a list and description of the files available within the \Date\Dates folder, which contains information regarding when the treatments occured and measurements were taken.
+ 
+C55_Measurement_Dates.csv: Comma-delimited ASCII text file containing general information regarding plot measurement dates and treatments done at the C-55 Thinning and fertilization in western redcedar between 1980 and 2006.
+
+*_readme.csv: Comma-delimited ASCII text file available for each data file, containing a list and complete description of each variable within the specified data file.
+Variables include:
+Column name = name of column (variable) within the data file
+Description = description of the specified variable
+Unit of Measure = measurement unit for the specified variable, if applicable
+Codes = description of codes or name of file containing a description of the codes used for the specified variable
+</eaover>
+      <eadetcit>Harrington and Wierman (1985)
+Harrington and Wierman (1990)
+Devine and Harrington (2009)
+Harrington and Devine (2011)</eadetcit>
+    </overview>
+    <overview>
+      <eaover>SITE INFORMATION FILES (\Data\SiteInfo)
+Below you will find a list and description of the files available within the \Date\SiteInfo folder, which contains information about the sites and when the treatments occurred and measurements were taken.
+          
+C55_Plots.csv: Comma-delimited ASCII text file containing general information regarding treatment and measurement plots at the C-55 Thinning and fertilization in western redcedar study.
+          
+*_readme.csv: Comma-delimited ASCII text file available for each data file, containing a list and complete description of each variable within the specified data file.
+Variables include:
+Column name = name of column (variable) within the data file
+Description = description of the specified variable
+Unit of Measure = measurement unit for the specified variable, if applicable
+Codes = description of codes or name of file containing a description of the codes used for the specified variable
+</eaover>
+      <eadetcit>Harrington and Wierman (1985)
+Harrington and Wierman (1990)
+Devine and Harrington (2009)
+Harrington and Devine (2011)</eadetcit>
+    </overview>
+    <overview>
+      <eaover>SOIL MEASUREMENT FILES (\Data\Soil)
+Below you will find a list and description of the files available within the \Date\Soil folder, which contains tree and regeneration data.
+	  
+C55_2006_SoilElements.csv: Comma-delimited ASCII text file containing soil compound configurations by plot number from the C-55 Thinning and fertilization in western redcedar study.
+    
+C55_2006_SoilParticleSize.csv: Comma-delimited ASCII text file containing soil particle configuration and texture by plot number from the C-55 Thinning and fertilization in western redcedar study.
+          
+*_readme.csv: Comma-delimited ASCII text file available for each data file, containing a list and complete description of each variable within the specified data file.
+Variables include:
+Column name = name of column (variable) within the data file
+Description = description of the specified variable
+Unit of Measure = measurement unit for the specified variable, if applicable
+Codes = description of codes or name of file containing a description of the codes used for the specified variable          
+</eaover>
+      <eadetcit>Harrington and Wierman (1985)
+Harrington and Wierman (1990)
+Devine and Harrington (2009)
+Harrington and Devine (2011)</eadetcit>
+    </overview>
+    <overview>
+      <eaover>STEM FORM ASSESSMENT FILES (\Data\StemFormAssmnt)
+Below you will find a list and description of the files available within the \Date\StemFormAssmnt folder, which contains tree and regeneration data.	  
+		  
+C55_1997_StemTaper.csv: Comma-delimited ASCII text file containing 1997 stem taper diameters for individuals by location the C-55 Thinning and fertilization in western redcedar study.
+          
+C55_2005_StemTaperCRBrD.csv: Comma-delimited ASCII text file containing 1997 stem taper, crown radii and branches data by location from the C-55 Thinning and fertilization in western redcedar study.
+          
+*_readme.csv: Comma-delimited ASCII text file available for each data file, containing a list and complete description of each variable within the specified data file.
+Variables include:
+Column name = name of column (variable) within the data file
+Description = description of the specified variable
+Unit of Measure = measurement unit for the specified variable, if applicable
+Codes = description of codes or name of file containing a description of the codes used for the specified variable  
+</eaover>
+      <eadetcit>Harrington and Wierman (1985)
+Harrington and Wierman (1990)
+Devine and Harrington (2009)
+Harrington and Devine (2011)</eadetcit>
+    </overview>
+    <overview>
+      <eaover>TREE MEASUREMENT FILES (\Data\Trees)
+Below you will find a list and description of the files available within the \Date\Trees folder, which contains tree and regeneration data.
+		  
+C55_FoliarNutrients.csv: Comma-delimited ASCII text file containing foliar nutrient analysis from years 1981, 1982, 1983, 1985, and 1990.
+          
+C55_TreeMeasurements.csv: Comma-delimited ASCII text file containing identification, location and descriptive information from the C-55 Thinning and fertilization in western redcedar study.
+
+*_readme.csv: Comma-delimited ASCII text file available for each data file, containing a list and complete description of each variable within the specified data file.
+Variables include:
+Column name = name of column (variable) within the data file
+Description = description of the specified variable
+Unit of Measure = measurement unit for the specified variable, if applicable
+Codes = description of codes or name of file containing a description of the codes used for the specified variable          
+</eaover>
+      <eadetcit>Harrington and Wierman (1985)
+Harrington and Wierman (1990)
+Devine and Harrington (2009)
+Harrington and Devine (2011)</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Research and Development</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>240 West Prospect Road</address>
+          <city>Fort Collins</city>
+          <state>CO</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>see Contact Instructions</cntvoice>
+        <cntpos>Research Data Archivist</cntpos>
+        <cntinst>This contact information was current as of September 2021. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>RDS-2021-0080</resdesc>
+    <distliab>Metadata documents have been reviewed for accuracy and completeness. Unless otherwise stated, all data and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. However, neither the author, the Archive, nor any part of the federal government can assure the reliability or suitability of these data for a particular purpose. The act of distribution shall not constitute any such warranty, and no responsibility is assumed for a user's application of these data or related materials.
+
+The metadata, data, or related materials may be updated without notification. If a user believes errors are present in the metadata, data or related materials, please use the information in (1) Identification Information: Point of Contact, (2) Metadata Reference: Metadata Contact, or (3) Distribution Information: Distributor to notify the author or the Archive of the issues.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Comma-delimited ASCII text file (CSV)</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0080</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PDF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Portable Document Format file</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0080</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20210903</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Constance Harrington</cntper>
+          <cntorg>USDA Forest Service, Pacific Northwest Research Station</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3625 93rd Ave SW</address>
+          <city>Olympia</city>
+          <state>WA</state>
+          <postal>98512</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>360-753-7670</cntvoice>
+        <cntpos>Research Forester</cntpos>
+        <cntemail>constance.harrington@usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

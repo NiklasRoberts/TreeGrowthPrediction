@@ -1,0 +1,18 @@
+Tree_Class_Code,Description
+10,Live tree (leave tree)
+11,Ingrowth tree
+12,"New tree, missed at previous measurement(s)"
+13,"Live tree with measured height, not suitable for height/diameter curves or for height growth determination"
+14,Both site tree and crop tree
+15,Site tree
+16,Crop tree
+17,Ongrowth tree
+19,Tally tree less than minimum dbh for ingrowth
+20,Dead tree not specified as standing or down
+21,Standing dead (snag)
+22,Down dead
+23,Dead cut tree
+24,Presumed dead could not locate
+29,Dead tally tree less than minimum dbh for ingrowth
+30,Live cut tree (marked for cut at time of treatment)
+31,Live cut tree (not marked for cut at time of treatment)
