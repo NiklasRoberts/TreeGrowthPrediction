@@ -37,3 +37,15 @@ Assumptions:
 - Foliar nutrient levels are measured at the beginning of the growing time period
 - Foliar nutrients remain constant over growth period
 - Foliar nutrients for a plot is the same for all trees within that plot
+- The same tree may have growth/yr calculated from it twice (once from 82-85, once from 85-90)
+
+
+
+Different Models:
+
+- Growth per year bins (2 approaches):
+    - Bin by fixed range (0-.2, .2-.4, .4-.6, .6+)
+    - Bin by equal record distribution
+
+- Regression
+    - one output node, coninuous range
