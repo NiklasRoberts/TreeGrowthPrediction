@@ -81,6 +81,15 @@ Increasing accuracy test:
     - test accuracy:     0.4869
 
 
+
+
+Regression Model:
+
+
+
+
+
+
 Some sources so far:
 
 Possible ways to increase accuracy of neural network
