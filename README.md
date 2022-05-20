@@ -123,3 +123,6 @@ https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9#:~
 
 Good source on layers and nodes:
 https://machinelearningmastery.com/how-to-configure-the-number-of-layers-and-nodes-in-a-neural-network/
+
+Classification:
+https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5 
