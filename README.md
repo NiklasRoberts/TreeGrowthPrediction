@@ -56,58 +56,16 @@ Several measures were used to predict tree growth:
 - MAFU
 - TSME
 
-# Statistical Analysis
+# Statistical Models
 
-## Models
+## Regression
 
-### Regression
+## Classification
+For the classification model we created a neural network to predict which bin the growth rate would fall into. The bins for `Growth%/Yr` we chose were [0,5%], (5%, 10%], (10%, 20%], and (20%, inf) based on the distribution of records. ![Classification Bins](growthDist.png)
 
+Classification of continuous variables has many inherent challenges. First, there is a natural loss of information as the singular prediction value is transformed into a range of values within the bin. Second, if there is a high error in prediction, there is a large possibility of classification predictions crossing binning lines, which leads to an innacurate prediction. 
 
-### Binning
-
-
-
-
-
-
-Different Models:
-
-- Growth per year bins (2 approaches):
-    - Bin by fixed range (0-.2, .2-.4, .4-.6, .6+)
-    - Bin by equal record distribution
-
-- Regression
-    - one output node, coninuous range
-
-
-Classification Model:
-    
-Initial model:
-    classifyModel = Sequential()    
-    classifyModel.add(Dense(4, input_dim=6, activation='sigmoid'))
-    classifyModel.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    
-    - training accuracy: 0.4927
-    - test accuracy:     0.4950
-
-Increasing accuracy test:
-- messed around with batch size and epochs -> didn't result in to much accuracy difference
-- changed activation to relu:
-    - training accuracy: 0.2696
-    - test accuracy:     0.2520
-- changed activation to tanh
-    - training accuracy: 0.3352
-    - test accuracy:     0.3432
-- changed activation to softmax
-    - training accuracy: 0.5029
-    - test accuracy:     0.4905
-- read that relus are good for hidden layers, so added a hidden layer, with sigmoid as final output activation as below:
-    classifyModel = Sequential()
-    classifyModel.add(Dense(8, input_dim=6, activation='relu'))
-    classifyModel.add(Dense(4, activation='sigmoid'))
-    classifyModel.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    - training accuracy: 0.5105
-    - test accuracy:     0.4869
+Upon running a classification model for the `Growth%/Yr` for the trees, the results were all over the place. The peak accuracy was a bit less than 60% accurate, while the worst accuracy was around 10% accurate. However, the results were inconsistent as consecutive runs using the same neural network structure at one point yielded accuracies differing by over 30%! Therefore, due to the inconsistencies in the model, as well as its inaccuracy we did not pursue the classification model further. 
 
 
 ## Helpful sources:
