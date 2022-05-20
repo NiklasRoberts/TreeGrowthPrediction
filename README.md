@@ -59,6 +59,16 @@ Several measures were used to predict tree growth:
 # Statistical Models
 
 ## Regression
+We created a neural network to predict a continuous value for growth rate per year. We attempted a variety of models but found that ReLU activation functions in a 6 / 8 / 1 architecture was the most accurate model. The final node produces a value between 0 and 1, which was the normalized version for the growth rate per year (this can be inverse transformed to produce a growth rate value).
+
+We used a variety of metrics to test the accuracy of our regression neural network including the mean square error, mean absolute error, and maximum absolute error. Below is a summary of the current model:
+* Mean Absolute Error: 0.04
+* Mean Square Error: 0.0009
+* Maximum Absolute Error: 1.98
+
+Also, we beliee the mean absolute error for more than 95% of the prediction values is significantly lower than stated above. There were a handful of outliers that skew this number. This is represented in the absolute error distribution below:
+![Regress Absolute Error Distribution](6_Relu_8_Relu_1_Full_Histogram.png)
+As you can see, the vast majority of the erros are below 0.2. This means that our model is good at predicting the growth of a tree within 20% of the actual growth, given the nutrient levels and species of a tree.
 
 ## Classification
 For the classification model we created a neural network to predict which bin the growth rate would fall into. The bins for `Growth%/Yr` we chose were [0,5%], (5%, 10%], (10%, 20%], and (20%, inf) based on the distribution of records. ![Classification Bins](growthDist.png)
@@ -68,19 +78,39 @@ Classification of continuous variables has many inherent challenges. First, ther
 Upon running a classification model for the `Growth%/Yr` for the trees, the results were all over the place. The peak accuracy was a bit less than 60% accurate, while the worst accuracy was around 10% accurate. However, the results were inconsistent as consecutive runs using the same neural network structure at one point yielded accuracies differing by over 30%! Therefore, due to the inconsistencies in the model, as well as its inaccuracy we did not pursue the classification model further. 
 
 
-## Helpful sources:
+## Sources:
 
-Possible ways to increase accuracy of neural network
+### Data Source
+Harrington, Constance A. 2020. C-55 Thinning and fertilization in western redcedar (C55 WRC TF). Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2021-0080
+
+### Research and Tutorial Sources
+1. 3blue1brown on machine learning/neural networks:
+https://www.3blue1brown.com/topics/neural-networks
+
+2. Possible ways to increase accuracy of neural network:
 https://towardsdatascience.com/how-to-increase-the-accuracy-of-a-neural-network-9f5d1c6f407d
 
-How to choose activation function
+3. How to choose activation function:
 https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/
 
-Batch size and epochs: 
+4. Batch size and epochs: 
 https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9#:~:text=Note%3A%20The%20number%20of%20batches,iterations%20to%20complete%201%20epoch.
 
-Good source on layers and nodes:
+5. Discussion on layers and nodes:
 https://machinelearningmastery.com/how-to-configure-the-number-of-layers-and-nodes-in-a-neural-network/
 
-Classification:
+6. Classification tutorial:
 https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5 
+
+7. Regression tutorial:
+https://datascienceplus.com/keras-regression-based-neural-networks/
+
+8. Scikit-learn documentation: https://scikit-learn.org/stable/
+
+9. Keras library documentation: https://keras.io/ 
+
+10. Loss function discussion:
+https://towardsdatascience.com/deep-learning-which-loss-and-activation-functions-should-i-use-ac02f1c56aa8
+
+11. Matplotlib documentation for histograms:
+https://matplotlib.org/3.5.0/api/_as_gen/matplotlib.pyplot.hist.html
