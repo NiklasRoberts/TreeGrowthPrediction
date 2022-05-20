@@ -61,7 +61,10 @@ Several measures were used to predict tree growth:
 ## Regression
 We created a fully connected neural network to predict a continuous value for growth rate per year. We attempted a variety of models but found that ReLU activation functions in a 6 / 8 / 1 architecture was the most accurate model. The final node produces a value between 0 and 1, which was the normalized version for the growth rate per year (this can be inverse transformed to produce a growth rate value).
 
-![Regression Neural Network Design](RegressionDesign.png)
+<figure>
+<img src="RegressionDesign.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig.1 - Neural Network Architecture</b></figcaption>
+</figure>
 
 We then used a variety of metrics to test the accuracy of our regression neural network including the mean square error, mean absolute error, and maximum absolute error. Below is a summary of the current model:
 * Mean Absolute Error: 0.04
@@ -72,11 +75,27 @@ Because we are measuring Percent Growth per Year, the mean absolute error of 0.0
 
 Also, we believe the mean absolute error for more than 95% of the prediction values is significantly lower than stated above. There were a handful of outliers that skew this number. This is represented in the absolute error distribution below:
 
-![Regress Absolute Error Distribution](6_Relu_8_Relu_1_Full_Histogram.png)
-As you can see, the vast majority of the erros are below 0.2. This means that our model is good at predicting the growth of a tree within 20% of the actual growth, given the nutrient levels and species of a tree.
+<figure>
+<img src="6_Relu_8_Relu_1_Full_Histogram.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig.2 - Distribution of errors from regression prediction</b></figcaption>
+</figure>
+
+As you can see in Fig.2, the vast majority of the errors are below 0.2. This means that our model is good at predicting the growth of a tree within 20% of the actual growth, given the nutrient levels and species of a tree.
+
+<figure>
+<img src="ErrorHistogram.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig.3 - Histogram of absolute errors from regression prediction</b></figcaption>
+</figure>
+
+As well, Fig.3 shows a different view of the distribution from Fig.2 but confirms the findings that the majority of predictions contain error values located between 0.01 to 0.05, showing that over half of all `Growth%/Yr` predictions were within 1% to 5% of the actual value.
 
 ## Classification
-For the classification model we created a neural network to predict which bin the growth rate would fall into. The bins for `Growth%/Yr` we chose were [0,5%], (5%, 10%], (10%, 20%], and (20%, inf) based on the distribution of records. ![Classification Bins](growthDist.png)
+For the classification model we created a neural network to predict which bin the growth rate would fall into. The bins for `Growth%/Yr` we chose were [0,5%], (5%, 10%], (10%, 20%], and (20%, inf) based on the distribution of records. 
+
+<figure>
+<img src="growthDist.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig.4 - Histogram of Growth%/Yr </b></figcaption>
+</figure>
 
 Classification of continuous variables has many inherent challenges. First, there is a natural loss of information as the singular prediction value is transformed into a range of values within the bin. Second, if there is a high error in prediction, there is a large possibility of classification predictions crossing binning lines, which leads to an innacurate prediction. 
 
