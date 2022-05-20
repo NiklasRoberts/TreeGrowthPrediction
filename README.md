@@ -1,43 +1,72 @@
 # AI-Final-Project
-Using applied data science techniques to analyze a Forest Ecology dataset measuring bark infections over several years.
+Using applied data science techniques to analyze a [Forest Ecology dataset](https://data.nal.usda.gov/dataset/c-55-thinning-and-fertilization-western-redcedar-c55-wrc-tf) measuring tree growth in response to thinning and fertilization in the western Olympic Peninsula over several years.
+
+## Environment setup
+- Create fresh environment using python=3.8
+- `pip install -r requirements.txt`
+
+# Methodology
+
+## Analysis target
+Our goal was to calculate and predict the average growth per year of all trees measured in the study. We derived `Growth%/Yr` using tree width measurements from 1982, 1985, and 1990 and measuring the percent change across those time periods. We then used a variety of neural network approaches to predict the `Growth%/Yr` based on a variety of input variables.
 
 
-Years:
-1982
-1985
-1990
+## Input variables
+Several measures were used to predict tree growth:
+- Tree species
+- Nutrient levels in fallen foliage:
+  - Nitrogen concentration (%)
+  - Phosphorus concentration (%)
+  - Potassium concentration (%)
+  - Sulfur concentration (%)
+  - Calcium concentration (%)
 
-Table columns:
-- Tree num
-- D82
-- D85
-- D90
-- Nutrients at 1982
-- Nutrients at 1985
-
-
-Tree growth per year:
-
-From 1982 -> 1985
-- tree num
-- (year)
-- (D increase/dprev) / year * 100
-- nutrients at 1982
-
-From 1985 -> 1990
-- tree num
-- (year)
--(D increase/dprev) / year * 100
-- nutrients at 1985
-
-
-
-Assumptions:
+## Assumptions:
 - Trees growth rate is not affected by the trees age
 - Foliar nutrient levels are measured at the beginning of the growing time period
 - Foliar nutrients remain constant over growth period
 - Foliar nutrients for a plot is the same for all trees within that plot
-- The same tree may have growth/yr calculated from it twice (once from 82-85, once from 85-90)
+- The same tree may have `Growth%/Yr` calculated from it twice (once from 82-85, once from 85-90)
+
+## Data derivation
+
+### **Percent growth per year**:
+- D82 = 1982 Tree diameter at breast height
+- D85 = 1985 Tree diameter at breast height
+- D90 = 1990 Tree diameter at breast height
+ 
+1982-1985 period `Growth%/Yr` = (D85 - D82)/(D82 * 3 Yrs)
+
+1985-1990 period `Growth%/Yr` = (D90 - D85)/(D85 * 5 Yrs)
+  
+### **Foliar nutrients**:
+- 1982 measurements associated with tree growth during 1982-1985 
+- 1985 measurements associated with tree growth during 1985-1990
+
+### **Tree species**:
+- THPL
+- TSHE
+- PISI
+- ALRU2
+- RHPU
+- TABR2
+- UNCLH 
+- ABAM
+- ABGR
+- MAFU
+- TSME
+
+# Statistical Analysis
+
+## Models
+
+### Regression
+
+
+### Binning
+
+
+
 
 
 
@@ -81,16 +110,7 @@ Increasing accuracy test:
     - test accuracy:     0.4869
 
 
-
-
-Regression Model:
-
-
-
-
-
-
-Some sources so far:
+## Helpful sources:
 
 Possible ways to increase accuracy of neural network
 https://towardsdatascience.com/how-to-increase-the-accuracy-of-a-neural-network-9f5d1c6f407d
