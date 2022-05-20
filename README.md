@@ -1,5 +1,5 @@
 # AI-Final-Project
-Using applied data science techniques to analyze a [Forest Ecology dataset](https://data.nal.usda.gov/dataset/c-55-thinning-and-fertilization-western-redcedar-c55-wrc-tf) measuring tree growth in response to thinning and fertilization in the western Olympic Peninsula over several years.
+Using applied data science techniques to analyze a [Forest Ecology dataset](https://data.nal.usda.gov/dataset/c-55-thinning-and-fertilization-western-redcedar-c55-wrc-tf) measuring tree growth in response to thinning and fertilization in the western Olympic Peninsula over several decades.
 
 ## Environment setup
 - Create fresh environment using python=3.8
@@ -22,7 +22,7 @@ Several measures were used to predict tree growth:
   - Calcium concentration (%)
 
 ## Assumptions:
-- Trees growth rate is not affected by the trees age
+- A tree's growth rate is not affected by the tree's age
 - Foliar nutrient levels are measured at the beginning of the growing time period
 - Foliar nutrients remain constant over growth period
 - Foliar nutrients for a plot is the same for all trees within that plot
@@ -75,7 +75,7 @@ For the classification model we created a neural network to predict which bin th
 
 Classification of continuous variables has many inherent challenges. First, there is a natural loss of information as the singular prediction value is transformed into a range of values within the bin. Second, if there is a high error in prediction, there is a large possibility of classification predictions crossing binning lines, which leads to an innacurate prediction. 
 
-Upon running a classification model for the `Growth%/Yr` for the trees, the results were all over the place. The peak accuracy was a bit less than 60% accurate, while the worst accuracy was around 10% accurate. However, the results were inconsistent as consecutive runs using the same neural network structure at one point yielded accuracies differing by over 30%! Therefore, due to the inconsistencies in the model, as well as its inaccuracy we did not pursue the classification model further. 
+Upon running a classification model for the `Growth%/Yr` for the trees, the results were all over the place. The peak accuracy was over 50% accurate, while the worst accuracy was around 10% accurate. However, the results were inconsistent as consecutive runs using the same neural network structure at one point yielded accuracies differing by over 30%! Therefore, due to the inconsistencies in the model, as well as its inaccuracy we did not pursue the classification model further. 
 
 
 ## Sources:
