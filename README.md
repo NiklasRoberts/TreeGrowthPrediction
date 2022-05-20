@@ -8,7 +8,7 @@ Using applied data science techniques to analyze a [Forest Ecology dataset](http
 # Methodology
 
 ## Analysis target
-Our goal was to calculate and predict the average growth per year of all trees measured in the study. We derived `Growth%/Yr` using tree width measurements from 1982, 1985, and 1990 and measuring the percent change across those time periods. We then used a variety of neural network approaches to predict the `Growth%/Yr` based on a variety of input variables.
+Our goal was to calculate and predict the average growth per year of all trees measured in the study. We derived `Growth%/Yr` using tree width measurements from 1982, 1985, and 1990 and measured the percent change across those time periods. We then used a variety of neural network approaches to predict the `Growth%/Yr` based on a variety of input variables.
 
 
 ## Input variables
@@ -59,14 +59,19 @@ Several measures were used to predict tree growth:
 # Statistical Models
 
 ## Regression
-We created a neural network to predict a continuous value for growth rate per year. We attempted a variety of models but found that ReLU activation functions in a 6 / 8 / 1 architecture was the most accurate model. The final node produces a value between 0 and 1, which was the normalized version for the growth rate per year (this can be inverse transformed to produce a growth rate value).
+We created a fully connected neural network to predict a continuous value for growth rate per year. We attempted a variety of models but found that ReLU activation functions in a 6 / 8 / 1 architecture was the most accurate model. The final node produces a value between 0 and 1, which was the normalized version for the growth rate per year (this can be inverse transformed to produce a growth rate value).
 
-We used a variety of metrics to test the accuracy of our regression neural network including the mean square error, mean absolute error, and maximum absolute error. Below is a summary of the current model:
+![Regression Neural Network Design](RegressionDesign.png)
+
+We then used a variety of metrics to test the accuracy of our regression neural network including the mean square error, mean absolute error, and maximum absolute error. Below is a summary of the current model:
 * Mean Absolute Error: 0.04
 * Mean Square Error: 0.0009
 * Maximum Absolute Error: 1.98
 
-Also, we beliee the mean absolute error for more than 95% of the prediction values is significantly lower than stated above. There were a handful of outliers that skew this number. This is represented in the absolute error distribution below:
+Because we are measuring Percent Growth per Year, the mean absolute error of 0.04 represents an average prediction error of 4%, and the max absolute error of 1.98 represents an outlier, with an error of 198%.
+
+Also, we believe the mean absolute error for more than 95% of the prediction values is significantly lower than stated above. There were a handful of outliers that skew this number. This is represented in the absolute error distribution below:
+
 ![Regress Absolute Error Distribution](6_Relu_8_Relu_1_Full_Histogram.png)
 As you can see, the vast majority of the erros are below 0.2. This means that our model is good at predicting the growth of a tree within 20% of the actual growth, given the nutrient levels and species of a tree.
 
