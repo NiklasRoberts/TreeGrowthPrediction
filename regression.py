@@ -81,7 +81,7 @@ speciesLabEncoder = LabelEncoder()
 # Transforms species into numerical data
 speciesNumList = speciesLabEncoder.fit_transform(regressData['SPECIES'])
 # code for reverting: species = le.inverse_transform(label)
-# changing the species column to numerical values
+# changing the species column to numerical valuess
 regressData['SPECIES'] = speciesNumList
 
 # Splitting into input and output data
