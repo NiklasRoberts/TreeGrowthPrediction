@@ -62,7 +62,7 @@ Several measures were used to predict tree growth:
 We created a fully connected neural network to predict a continuous value for growth rate per year. We attempted a variety of models but found that ReLU activation functions in a 6 / 8 / 1 architecture was the most accurate model. The final node produces a value between 0 and 1, which was the normalized version for the growth rate per year (this can be inverse transformed to produce a growth rate value).
 
 <figure>
-<img src="RegressionDesign.png" alt="Trulli" style="width:100%">
+<img src="Images/RegressionDesign.png" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig.1 - Neural Network Architecture</b></figcaption>
 </figure>
 
@@ -76,14 +76,14 @@ Because we are measuring Percent Growth per Year, the mean absolute error of 0.0
 Also, we believe the mean absolute error for more than 95% of the prediction values is significantly lower than stated above. There were a handful of outliers that skew this number. This is represented in the absolute error distribution below:
 
 <figure>
-<img src="6_Relu_8_Relu_1_Full_Histogram.png" alt="Trulli" style="width:100%">
+<img src="Images/6_Relu_8_Relu_1_Full_Histogram.png" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig.2 - Distribution of errors from regression prediction</b></figcaption>
 </figure>
 
 As you can see in Fig.2, the vast majority of the errors are below 0.2. This means that our model is good at predicting the growth of a tree within 20% of the actual growth, given the nutrient levels and species of a tree.
 
 <figure>
-<img src="ErrorHistogram.png" alt="Trulli" style="width:100%">
+<img src="Images/ErrorHistogram.png" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig.3 - Histogram of absolute errors from regression prediction</b></figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ As well, Fig.3 shows a different view of the distribution from Fig.2 but confirm
 For the classification model we created a neural network to predict which bin the growth rate would fall into. The bins for `Growth%/Yr` we chose were [0,5%], (5%, 10%], (10%, 20%], and (20%, inf) based on the distribution of records. 
 
 <figure>
-<img src="growthDist.png" alt="Trulli" style="width:100%">
+<img src="Images/growthDist.png" alt="Trulli" style="width:100%">
 <figcaption align = "center"><b>Fig.4 - Histogram of Growth%/Yr </b></figcaption>
 </figure>
 
