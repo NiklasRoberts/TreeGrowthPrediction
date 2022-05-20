@@ -10,6 +10,7 @@ from sklearn.metrics import max_error
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
+import matplotlib.pyplot as plt
 
 
 # Get tree measurements for year 82, 85, and 90
@@ -110,7 +111,7 @@ loss_function = keras.losses.MeanAbsoluteError()
 regressModel.compile(loss=loss_function, optimizer='adam', metrics=['mse','mae','mape'])
 
 # training model
-regressModel.fit(regressX_train, regressY_train, epochs=150, batch_size=50)
+regressModel.fit(regressX_train, regressY_train, epochs=100, batch_size=50)
 
 # making predictions
 prediction = regressModel.predict(regressX_test)
@@ -121,3 +122,35 @@ true = scaler_y.inverse_transform(regressY_test)
 
 print("Mean Absolute Error: ", mean_absolute_error(true, pred))
 print("Max Error: ", max_error(true, pred))
+
+absErrors = abs(true - pred)
+
+# making a histogram
+#plt.hist(absErrors, bins = 300)
+#plt.show()
+
+# gathering values to help determine which model is best
+errorDistribution = []
+errorDistribution.append(len([i for i in absErrors if  i <= 0.001]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.001 and i <= 0.005]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.005 and i <= 0.01]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.01 and i <= 0.025]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.025 and i <= 0.05]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.05 and i <= 0.1]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.1 and i <= 0.25]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.25 and i <= 0.5]))
+errorDistribution.append(len([i for i in absErrors if  i > 0.5]))
+
+
+total = len(absErrors)
+print("Difference of percent growth between prediction and true")
+print("Total number of entries: ", total)
+print("<=0.001 diff:       ", errorDistribution[0], " Percent: ", errorDistribution[0]/total * 100)
+print("<=0.005 diff:       ", errorDistribution[1], " Percent: ", errorDistribution[1]/total * 100)
+print("<=0.1   diff:       ", errorDistribution[2], " Percent: ", errorDistribution[2]/total * 100)
+print("<=0.025 diff:       ", errorDistribution[3], " Percent: ", errorDistribution[3]/total * 100)
+print("<=0.05  diff:       ", errorDistribution[4], " Percent: ", errorDistribution[4]/total * 100)
+print("<=0.10  diff:       ", errorDistribution[5], " Percent: ", errorDistribution[5]/total * 100)
+print("<=0.25  diff:       ", errorDistribution[6], " Percent: ", errorDistribution[6]/total * 100)
+print("<=0.50  diff:       ", errorDistribution[7], " Percent: ", errorDistribution[7]/total * 100)
+print(">0.50  diff:       ", errorDistribution[8], " Percent: ", errorDistribution[8]/total * 100)
