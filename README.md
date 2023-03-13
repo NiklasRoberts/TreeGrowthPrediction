@@ -1,5 +1,5 @@
 # AI-Final-Project
-Using applied data science techniques to analyze a [Forest Ecology dataset](https://data.nal.usda.gov/dataset/c-55-thinning-and-fertilization-western-redcedar-c55-wrc-tf) measuring tree growth in response to thinning and fertilization in the western Olympic Peninsula over several decades.
+Using applied data science techniques to analyze a [Forest Ecology dataset](https://data.nal.usda.gov/dataset/c-55-thinning-and-fertilization-western-redcedar-c55-wrc-tf) measuring tree growth in response to thinning and fertilization in the western Olympic Peninsula over several decades. Developed by [Connor Weldy](https://github.com/ConnorW7) and [Niklas Roberts](https://github.com/NiklasRoberts)
 
 ## Environment setup
 - Create fresh environment using python=3.8
